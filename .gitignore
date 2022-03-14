@@ -1,0 +1,5 @@
+node_modules/
+proj/
+.yarn/
+dist/
+build/
