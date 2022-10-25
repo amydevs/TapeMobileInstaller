@@ -12,7 +12,7 @@ const RUNNPM = false;
 
 (async () => {
     const dir = path.join(process.cwd(), 'proj')
-    await git.clone({ fs, http, dir, url: 'https://github.com/jy1263/TapeMobile' })
+    await git.clone({ fs, http, dir, url: 'https://github.com/amydevs/TapeMobile' })
     process.chdir(dir)
 
     if(RUNNPM) {
